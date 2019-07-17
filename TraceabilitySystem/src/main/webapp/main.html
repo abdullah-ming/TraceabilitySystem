@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>商品防伪溯源查询系统</title>
+    <script src="js/jquery-1.10.2.min.js"></script>
+    <script src="js/searchJS.js"></script>
+</head>
+<body>
+<div class="login-area" id="searchPanel">
+    <div class="title" >
+        <span></span>商品防伪溯源查询<span></span>
+    </div>
+    <label for="name">
+        <input id="name" type="text" placeholder="品牌" class="common input"  >
+        <input id="ID" type="text" placeholder="唯一ID" class="common input psw-height">
+    </label>
+    <button class="common login-btn" onclick="search()" style="margin-left: 10px;">
+        一键查询
+    </button>
+</div>
+
+<div id="mainPanel" class="panel panel-default" hidden>
+    <div class="panel-heading">
+
+    </div>
+    <table class="table" id="postTable">
+        <tr style="font-weight: bold"><td>商品名</td><td>交易记录</td><td>交易数</td><td>登记人员</td></tr>
+
+    </table>
+</div>
+
+
+</body>
+</html>

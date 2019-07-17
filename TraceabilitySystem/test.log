@@ -1,0 +1,23 @@
+INFO [04-06|20:01:19.974] Maximum peer count                       ETH=25 LES=0 total=25
+INFO [04-06|20:01:23.095] Using developer account                  address=0x62d2CAb39315fFfd9fF8f943D44Ec4Cb624e6e24
+INFO [04-06|20:01:23.102] Starting peer-to-peer node               instance=Geth/v1.8.23-stable-c9427004/windows-amd64/go1.11.5
+INFO [04-06|20:01:23.103] Allocated cache and file handles         database="C:\\Users\\abudu\\Workspaces\\MyEclipse 2017 CI\\ViolationSystem-master\\testNet\\geth\\chaindata" cache=512 handles=8192
+INFO [04-06|20:01:23.255] Writing custom genesis block 
+INFO [04-06|20:01:23.256] Persisted trie from memory database      nodes=12 size=1.79kB time=0s gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [04-06|20:01:23.257] Initialised chain configuration          config="{ChainID: 1337 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: 0 EIP155: 0 EIP158: 0 Byzantium: 0 Constantinople: 0  ConstantinopleFix: 0 Engine: clique}"
+INFO [04-06|20:01:23.257] Initialising Ethereum protocol           versions="[63 62]" network=1337
+INFO [04-06|20:01:23.285] Loaded most recent local header          number=0 hash=206eb9…eb4ac9 td=1 age=49y11mo3w
+INFO [04-06|20:01:23.285] Loaded most recent local full block      number=0 hash=206eb9…eb4ac9 td=1 age=49y11mo3w
+INFO [04-06|20:01:23.285] Loaded most recent local fast block      number=0 hash=206eb9…eb4ac9 td=1 age=49y11mo3w
+INFO [04-06|20:01:23.290] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [04-06|20:01:23.291] Stored checkpoint snapshot to disk       number=0 hash=206eb9…eb4ac9
+INFO [04-06|20:01:23.529] started whisper v.6.0 
+INFO [04-06|20:01:23.530] New local node record                    seq=1 id=0f753c7b5cc948da ip=127.0.0.1 udp=0 tcp=56827
+INFO [04-06|20:01:23.530] Started P2P networking                   self="enode://c338ecfe8b8936329103a3320cd93e0ac7329ca0238e3ebd2d5e6e3778b625c6378ffe3d8418c8bef837ece29a528007cda9fa3315452599931acfd59e57ade6@127.0.0.1:56827?discport=0"
+INFO [04-06|20:01:23.532] IPC endpoint opened                      url=\\\\.\\pipe\\geth.ipc
+INFO [04-06|20:01:23.532] Transaction pool price threshold updated price=1000000000
+INFO [04-06|20:01:23.532] Transaction pool price threshold updated price=1
+INFO [04-06|20:01:23.532] Etherbase automatically configured       address=0x62d2CAb39315fFfd9fF8f943D44Ec4Cb624e6e24
+INFO [04-06|20:01:23.533] Commit new mining work                   number=1 sealhash=006738…34a8c2 uncles=0 txs=0 gas=0 fees=0 elapsed=0s
+INFO [04-06|20:01:23.533] Sealing paused, waiting for transactions 
+WARN [04-06|20:02:26.670] Failed account unlock attempt            address=0x62d2CAb39315fFfd9fF8f943D44Ec4Cb624e6e24 err="could not decrypt key with given passphrase"
